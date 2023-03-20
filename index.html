@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // var a= 34
+    // var a ='this is me'
+    let a = 45;
+    a =456
+    console.log(a);
+    
+    // numbers
+    // objects
+    // booleans - ture or false
+    // String
+    // undefined
+    // null
+
+    function hello(){
+        console.log("hey everyone")
+    }
+    let obj1 = {
+        r:11,
+        u:22,
+        func: function myfunc(number){
+            console.log("the number is" + number);
+        }
+    }
+    // document.addEventListener("click", function click(){
+    //     console.log("clicked");
+    //     // alert('hello')
+    //     confirm('Are you sure')
+    // })
+    let arr=[32.22,11];
+    console.log(this);
+    // function myfunc(number){
+    //         console.log("the number is" + number);
+    //     }
+    let mobj={
+        a: this,
+        myfunc:function (number){
+            console.log(this);
+        }
+    }
+    mobj.myfunc();
+    console.log(mobj.a);
+    setTimeout(() => {
+        console.log("hahaha")
+    }, 3000);
+    console.log("hehehe")
+
+    // for(let i=1; i<arr.length; i++);
+
+</script>
+<body>
+    
+    I am learning react !!
+</body>
+</html>
