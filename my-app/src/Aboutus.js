@@ -9,7 +9,7 @@ const Aboutus = () => {
         <div className='container mb-5'>
             <div className='row'>
                 <div className='col-12 col-lg-5 text-center our-service-leftside-img'>
-                    <img src="./images/h4.avif" alt="aboutusImg" />
+                    <img src="./images/h6.jpeg" alt="aboutusImg" className='img-fluid'/>
                 </div>
                 <div className='col-12 col-lg-7 our-services-list'>
                     <h4 className='mini-title'> 
